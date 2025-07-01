@@ -84,7 +84,7 @@ function App() {
       {/* ✅ Routes */}
       <Routes>
         <Route
-          path="/dashboard"
+          path="/"
           element={
             <RequireAuth>
               <Dashboard isLoggedIn={isLoggedIn} onLogout={() => setIsLoggedIn(false)} />
@@ -107,7 +107,7 @@ function App() {
           }
         />
         <Route path="/auth/register" element={<Register />} />
-        <Route path="/" element={<LatestCompanies />} />
+        <Route path="/cxc" element={<LatestCompanies />} />
         <Route path="/auth/forgot-password" element={<ForgotPassword />} />
         <Route path="/gst/latest-gst" element={<GSTPage />} />
         <Route path="/gst/profile" element={<LatestGSTPage />} />
