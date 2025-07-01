@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
-import Dashboard from "./pages/Dashboard";
-import IECpage from "./pages/IECPage";
+import Dashboard from "./Pages/Dashboard";
+import IECpage from "./Pages/IECPage";
 import LatestIECPage from "./Pages/LatestIECPage";
 import NGOpage from "./Pages/NGOpage";
 import Director from "./Pages/Director";
